@@ -1,27 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from "./home.jsx"
-import Introduction from "./introduction.jsx"
-import Contract from "./contract.jsx"
-import About from "./about.jsx"
+import { BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
+import Home from "../src/home.jsx"
+import Introduction from "../src/introduction.jsx"
+import Contract from "../src/contract.jsx"
+import About from "../src/about.jsx"
 import dragonflyImg from '../images/dragonfly.jpg'
-import IntroImg from '../images/introduction_portrait.jpeg'
-import '../styles/default.css'
 
 export default function MyApp() {
     return (
-        <Router>
-        <body>
+        <Router basename={import.meta.env.BASE_URL}>
+        <>
             <Header />
             <Routes>
-            <Route exact path="/" element={<Home />}/>
-            <Route exact path="index.html" element={<Home />}/>
-            <Route exact path="introduction.html" element={<Introduction />}/>
-            <Route exact path="about.html" element={<About />}/>
-            <Route exact path="contract.html" element={<Contract />}/>
+            <Route path="/" element={<Home />}/>
+            <Route path="/index.html" element={<Home />}/>
+            <Route path="/introduction.html" element={<Introduction />}/>
+            <Route path="/about.html" element={<About />}/>
+            <Route path="/contract.html" element={<Contract />}/>
             </Routes>
             <Footer />
-        </body>
+        </>
         </Router>
     )
 }
@@ -34,7 +31,7 @@ function Header() {
             <p><i>"The site I made for class"</i></p>
             <nav>
                 <p>
-                <a href="index.html">Home</a> | <a href="introduction.html">Introduction</a> | <a href="contract.html">Contract</a> | <a href="about.html">About</a>
+                <Link to="/index.html">Home</Link> | <Link to="/introduction.html">Introduction</Link> | <Link to="/contract.html">Contract</Link> | <Link to="/about.html">About</Link>
                 </p>
             </nav>
             <hr/>
