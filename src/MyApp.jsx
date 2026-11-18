@@ -47,7 +47,7 @@ function Footer() {
                 <a href="https://webpages.charlotte.edu/ndudley2/" target="_blank">CLT Web</a> | <a href="https://ndudley2.github.io/" target="_blank">GitHub.io</a> | <a href="https://github.com/ndudley2" target="_blank">GitHub</a> | <a href="https://www.freecodecamp.org/ndudley2" target="_blank">freeCodeCamp</a> | <a href="https://www.codecademy.com/profiles/ndudley2" target="_blank">Codecademy</a> | <a href="https://www.linkedin.com/in/natalia-dudley-41b9312bb/" target="_blank">LinkedIn</a>
                 </p>
             </nav>
-            <p>Site Designed By <a href="https://webpages.charlotte.edu/ndudley2/itis3135/nataliadudleydesigns.com/">Natalia Dudley Designs</a></p>
+            <p>Site Designed By <a target="_blank" href="https://webpages.charlotte.edu/ndudley2/itis3135/nataliadudleydesigns.com/">Natalia Dudley Designs</a></p>
             <p>Certified in <a target="_blank" href="https://www.freecodecamp.org/certification/ndudley2/responsive-web-design-v9">Responsive Web Design</a></p>
             <p>Natalia Dudley ©2026</p>
         </footer>
