@@ -12,10 +12,10 @@ export default function MyApp() {
             <Header />
             <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/index.html" element={<Home />}/>
-            <Route path="/introduction.html" element={<Introduction />}/>
-            <Route path="/about.html" element={<About />}/>
-            <Route path="/contract.html" element={<Contract />}/>
+            <Route path="/index" element={<Home />}/>
+            <Route path="/introduction" element={<Introduction />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/contract" element={<Contract />}/>
             </Routes>
             <Footer />
         </>
@@ -31,7 +31,7 @@ function Header() {
             <p><i>"The site I made for class"</i></p>
             <nav>
                 <p>
-                <Link to="/index.html">Home</Link> | <Link to="/introduction.html">Introduction</Link> | <Link to="/contract.html">Contract</Link> | <Link to="/about.html">About</Link>
+                <Link to="/index">Home</Link> | <Link to="/introduction">Introduction</Link> | <Link to="/contract">Contract</Link> | <Link to="/about">About</Link>
                 </p>
             </nav>
             <hr/>
