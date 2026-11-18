@@ -1,6 +1,9 @@
-import React from 'react';
-import IntroImg from './assets/introduction_portrait.jpeg'
+import React, { useEffect } from 'react';
+import IntroImg from '../images/introduction_portrait.jpeg'
 const Introduction = () =>{
+    useEffect(() => {
+            document.title = "Natalia Dudley's Nice Dragonfly | ITIS3135 | Introduction";
+        }, []);
     return (
         <main>
         <h2>Introduction</h2>

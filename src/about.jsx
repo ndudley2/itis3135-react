@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 const About = () => {
+    useEffect(() => {
+            document.title = "Natalia Dudley's Nice Dragonfly | ITIS3135 | About";
+        }, []);
     return (
         <main>
             <h2>About</h2>

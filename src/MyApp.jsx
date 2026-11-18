@@ -4,8 +4,9 @@ import Home from "./home.jsx"
 import Introduction from "./introduction.jsx"
 import Contract from "./contract.jsx"
 import About from "./about.jsx"
-import dragonflyImg from './assets/dragonfly.jpg'
-import IntroImg from './assets/introduction_portrait.jpeg'
+import dragonflyImg from '../images/dragonfly.jpg'
+import IntroImg from '../images/introduction_portrait.jpeg'
+import '../styles/default.css'
 
 export default function MyApp() {
     return (
@@ -33,26 +34,20 @@ function Header() {
             <p><i>"The site I made for class"</i></p>
             <nav>
                 <p>
-                <a href="index.html">Home</a> | 
-                <a href="introduction.html">Introduction</a> | 
-                <a href="contract.html">Contract</a> | 
-                <a href="about.html">About</a>
+                <a href="index.html">Home</a> | <a href="introduction.html">Introduction</a> | <a href="contract.html">Contract</a> | <a href="about.html">About</a>
                 </p>
             </nav>
+            <hr/>
         </header>
     );
 }
 function Footer() {
     return (
         <footer>
+            <hr />
             <nav>
                 <p>
-                <a href="https://webpages.charlotte.edu/ndudley2/" target="_blank">CLT Web</a> |
-                <a href="https://ndudley2.github.io/" target="_blank">GitHub.io</a> |
-                <a href="https://github.com/ndudley2" target="_blank">GitHub</a> |
-                <a href="https://www.freecodecamp.org/ndudley2" target="_blank">freeCodeCamp</a> |
-                <a href="https://www.codecademy.com/profiles/ndudley2" target="_blank">Codecademy</a> |
-                <a href="https://www.linkedin.com/in/natalia-dudley-41b9312bb/" target="_blank">LinkedIn</a>
+                <a href="https://webpages.charlotte.edu/ndudley2/" target="_blank">CLT Web</a> | <a href="https://ndudley2.github.io/" target="_blank">GitHub.io</a> | <a href="https://github.com/ndudley2" target="_blank">GitHub</a> | <a href="https://www.freecodecamp.org/ndudley2" target="_blank">freeCodeCamp</a> | <a href="https://www.codecademy.com/profiles/ndudley2" target="_blank">Codecademy</a> | <a href="https://www.linkedin.com/in/natalia-dudley-41b9312bb/" target="_blank">LinkedIn</a>
                 </p>
             </nav>
             <p>Site Designed By <a href="nataliadudleydesigns.com/">Natalia Dudley Designs</a></p>

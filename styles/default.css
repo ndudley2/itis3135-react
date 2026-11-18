@@ -47,11 +47,20 @@ header img {
     height: auto;
 }
 
-header, footer {
-    margin: 25px, auto;
+header {
+    max-width: auto;
+    margin: auto;
     text-align: center;
 }
-
+footer {
+    max-width: auto;
+    margin: auto;
+    text-align: center;
+}
+main {
+    max-width: auto;
+    margin: auto;
+}
 h6 {
     display: block;
     font-size: large;

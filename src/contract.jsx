@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 const Contract = () => {
+    useEffect(() => {
+            document.title = "Natalia Dudley's Nice Dragonfly | ITIS3135 | Contract";
+        }, []);
     return (
         <main>
             <h2>Contract</h2>
